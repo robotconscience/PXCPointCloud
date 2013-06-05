@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\testApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Intel\PCSDK\framework\common\pxcupipeline\src\pxcupipeline.cpp">
+      <Filter>src\pxc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Intel\PCSDK\sample\common\src\util_captureimpl.cpp">
+      <Filter>src\pxc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Intel\PCSDK\sample\common\src\util_capture.cpp">
+      <Filter>src\pxc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Intel\PCSDK\sample\common\src\util_capture_file.cpp">
+      <Filter>src\pxc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Intel\PCSDK\sample\common\src\util_pipeline_voice.cpp">
+      <Filter>src\pxc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Intel\PCSDK\sample\common\src\util_pipeline_face.cpp">
+      <Filter>src\pxc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Intel\PCSDK\sample\common\src\util_pipeline_gesture.cpp">
+      <Filter>src\pxc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Intel\PCSDK\sample\common\src\util_pipeline_raw.cpp">
+      <Filter>src\pxc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pxc">
+      <UniqueIdentifier>{862f783e-8ed7-4e6b-b57c-6c1e2ecf9519}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\testApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PointCloudThread.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
